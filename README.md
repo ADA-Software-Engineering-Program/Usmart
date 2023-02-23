@@ -1,15 +1,15 @@
 # usmart
 
-U-SMART TRIVIA MOBILE GAME.
+## U-SMART TRIVIA MOBILE GAME.
 
 This repo is for the mobile developers. We are going to use Flutter and Dart programming language to build this game.
 
-ABOUT THE GAME
+## ABOUT THE GAME
 
 U-Smart is a trivia mobile game in which players have to guess the answers of questions by choosing the desired option.
 The intent of the game is to increase brain activity, while killing boredom
 
-FEATURES OF THE GAME
+## FEATURES OF THE GAME
 
 The game will have the following features:
 
@@ -26,4 +26,6 @@ Score Display: The game ends when the players answer all the questions and their
 Settings: This feature houses basic settings that includes adjusting sound, game difficulty etc for players' preference.
 
 User Profile: Players can view their score histories and other achievements if there are any.
+
+## CONTRIBUTION GUIDE
 
