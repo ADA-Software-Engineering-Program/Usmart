@@ -7,7 +7,8 @@ This repo is for the mobile developers. We are going to use Flutter and Dart pro
 ## ABOUT THE GAME
 
 U-Smart is a trivia mobile game in which players have to guess the answers of questions by choosing the desired option.
-The intent of the game is to increase brain activity, while killing boredom
+The intent of the game is to increase brain activity, while killing boredom.
+Link to PRD: https://www.notion.so/PRD-FOR-UMUADA-0573655629404179976bb84a59395531?pvs=4
 
 ## FEATURES OF THE GAME
 
@@ -26,6 +27,8 @@ Score Display: The game ends when the players answer all the questions and their
 Settings: This feature houses basic settings that includes adjusting sound, game difficulty etc for players' preference.
 
 User Profile: Players can view their score histories and other achievements if there are any.
+
+link to TRD: https://app.gitbook.com/o/4e0GoXxUuM7rFc3S0Cg3/s/RllrlLnzU614MB5jRvFq/~/changes/4/app-features-and-requirements
 
 ## CONTRIBUTION GUIDE
 
