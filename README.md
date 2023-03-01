@@ -32,3 +32,7 @@ link to TRD: https://app.gitbook.com/o/4e0GoXxUuM7rFc3S0Cg3/s/RllrlLnzU614MB5jRv
 
 ## CONTRIBUTION GUIDE
 
+Link to our contribution guide https://tabi-academy.gitbook.io/ada-contribution-guideline/contribution-guideline-for-our-projects/u-smart
+
+Kindly go through our contribution guide if you intend to contribute to this project.
+
