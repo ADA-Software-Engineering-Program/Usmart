@@ -12,47 +12,13 @@ class ResultsScreen extends StatelessWidget {
         children: [
           Container(
             decoration: BoxDecoration(
-              gradient: LinearGradient(
-                begin: Alignment(-0.89, -0.69),
-                end: Alignment(0.75, 0.88),
-                colors: [
-                  Color(0xffE3D4F6),
-                  Color(0xff7A4CB6),
-                  Color(0xffA148B0),
-                  Color(0xffCA44A9),
-                  Color(0xffE3D4F6),
-                  Color.fromRGBO(255, 170, 234, 0.37161),
-                  Color.fromRGBO(255, 170, 234, 0.26),
-                ],
-                stops: [
-                  0.1575,
-                  0.4552,
-                  0.6245,
-                  0.8032,
-                  0.9321,
-                  1,
-                  1,
-                ],
-              ),
+              image: DecorationImage(
+            image: AssetImage('assets/images/category.png'),
+            fit: BoxFit.fill,
+          ),
             ),
           ),
-          Positioned(
-            left: 16,
-            top: 48,
-            child: Row(
-              children: [
-                IconButton(
-                  icon: Icon(Icons.arrow_back),
-                  onPressed: () => Navigator.pop(context),
-                ),
-                SizedBox(width: 100),
-                Text(
-                  '❤️',
-                  style: TextStyle(fontSize: 24),
-                ),
-              ],
-            ),
-          ),
+          
           Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
