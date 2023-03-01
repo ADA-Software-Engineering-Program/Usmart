@@ -1,0 +1,238 @@
+{
+	"categoryName": "Animals",
+	"simple_level": [
+		{
+			"question": "What is the largest mammal in the world? ",
+			"options": ["Elephant", "Blue Whale", "Giraffe", "Gorilla"],
+			"answer": 1
+		},
+		{
+			"question": "What animal is known for its black and white stripes? ",
+            "options": [" Zebra","Cheetah","Leopard","Lion" ], 
+            "answer":0
+		},
+        {
+            "question": "What animal is the symbol of the United States?",
+            "options": ["Bald Eagle","Turkey","Peacock","Flamingo"],
+           "answer":0
+        },
+        {
+           "question": "What kind of animal is a Komodo dragon? ",
+           "options":[" Lizard", " Snake", "Frog ", "Turtle"],
+           "answer":0
+        },
+        {
+            "question": " What is the name for a group of lions? ",
+            "options":["Herd","Pack", "Flock","Pride"],
+            "answer": 3
+        },
+        {
+            "question": "What is the name for a group of dolphins?",
+            "options":["Flock","Herd","Pod ", "School"],
+            "answer": 2
+        },
+        {
+            "question": "What animal is the fastest land animal?",
+            "options": ["Cheetah", "Lion", "Tiger","Gazelle"],
+            "answer": 0
+        },
+        {
+            "question":"What kind of animal is a narwhal?",
+            "options":["Fish","Mammal","Bird","Reptile"],
+            "answer": 1
+         },
+        {
+            "question":"What is the name for a group of kangaroos?",
+            "options":["Herd","Pack","Flock","Mob"],
+            "answer": 3
+        },
+        {
+            "question": "What animal is the symbol of Australia?",
+            "options":["Kangaroo", "Koala", "Emu","Platypus"],
+            "answer": 0
+        },
+        {
+            "question": "What kind of animal is a panda?",
+            "options": [" Bear","Raccoon","Squirrel","Fox" ],
+            "answer": 0
+        },
+        {
+            "question":" What is the name for a group of lions? ",
+            "options":[ "Bear","Raccoon","Squirrel","Fox"],
+            "answer":0
+        },
+        {
+            "question":" What is the name for a group of whales?",
+            "options": ["pod","Herd","Flock","School"],
+            "answer":0
+        },
+        {
+           "question": "What kind of animal is a penguin?",
+            "options": ["Bird","Mammal","Reptile","Amphibian"],
+            "answer":0
+        },
+        {
+            "question": "What  animal is known for its humps?",
+            "options":["Camel","Elephant","Rhino","Hippopotamus"],
+            "answer":0
+        },
+        {
+            "question": "What is the name for a group of flamingos?",
+            "options": ["Flock","Herd","Pod","Colony"],
+            "answer":0 
+        },
+        {
+            "question": "What is the fastest land animal? ",
+            "options":["Cheetah","Lion","Gazelle","Tiger"],
+            "answer":0
+        },
+    {
+       "question": "What is the largest mammal on Earth?",
+        "options":["Blue whale","African elephant","Hippopotamus","Giraffe"],
+        "answer": 0
+     },
+     { 
+        "question": "What is the smallest mammal in the world?",
+      "options": ["Bumblebee bat","Shrew","Hamster","Mouse Answer"],
+      "answer":0
+     },
+     {
+        "question": "What type of animal is a Komodo dragon?",
+        "options":["Lizard","Snake","Crocodile","Turtle"],
+        "answer":0
+     },
+     {
+        "question":"which animal is known as the ship of the desert?",
+        "options":["Camel","Horse","Donkey","Zebra"],
+        "answer":0
+     }
+    
+	],
+
+    "medium_level": [
+        {
+			"question":"What is the only mammal capable of true flight?",
+            "options":["Bat","Flying Squirrel","Pterodactyl"],
+           "answer":1
+        },
+          {
+             "question":"What animal is known for being the world's deadliest?",
+            "options":["Mosquito","Hippopotamus","Lion"],
+            "answer": 1
+    },
+            {
+              "question":"Which animal has the longest lifespan?", 
+              "options":["Galapagos Tortoise","Bowhead Whale","Greenland Shark"],
+            "answer":2
+            },
+            {
+            "question":"What is the largest land animal in the world?",
+            "options":["Elephant","Giraffe","Rhinoceros"],
+            "answer":0
+            }, 
+            {
+           "question":"What animal has the most powerful bite force in the world?",
+            "options":["Saltwater Crocodile","Great White Shark","African Elephant"],
+           "answer": 0
+            },
+            {
+           "questions":"Which bird is capable of flying backwards?",
+            "options": ["Bald Eagle"," Hummingbird","Pelican"],
+            "answer": 1
+            },
+            {
+           "question":"Which animal is known for having the most complex brain?",
+            "options": ["Chimpanzee","Dolphin","Octopus"],
+            "answer":2
+            },
+            {
+           "question":"Which animal has the ability to change its color to blend in with its surroundings?",
+           "options": ["Chameleon","Cuttlefish","Octopus"],
+           "answer":2
+            },
+            {
+          "question":"What is the fastest land animal in the world?",
+            "options":["Cheetah","Lion","Gazelle"],
+            "answer":0
+            },
+        {
+          "question":"What is the largest animal in the ocean?",
+            "options":["Blue Whale","Sperm Whale","Killer Whale"],
+            "Answer":0
+        },
+        {
+           "question":"What is the smallest mammal in the world?",
+            "options":["Pygmy Marmoset","Bumblebee Bat","Dormouse"],
+           "answer":2
+        },
+        {
+          "question":"What animal is known as the king of the jungle?",
+          "options":["Lion","Tiger","Gorilla"],
+            "answer":0
+        },
+        {
+          "question": "What animal has the highest blood pressure of any mammal?",
+            "options":["Elephant","Giraffe","Human"],
+           "answer":2
+        },
+        {
+          "question":" What is the only animal that can see behind itself without turning its head?",
+           "options":["Snake","Chameleon","Rabbit"],
+           "answer":0
+        },
+        {
+          "question":"What animal is known for having the longest neck in the world?",
+            "options":["Giraffe","Ostrich","Alpaca"],
+            "answer":0
+        },
+        {
+           "question":"What animal has the most powerful sense of smell in the world?",
+            "option":["Bloodhound","Grizzly Bear","Elephant"],
+            "answer":0
+    },
+    {
+          "question":"What animal is known for having the sharpest teeth in the world?",
+           "options":["Hippopotamus","Piranha","Tasmanian Devil"],
+           "answer":1
+    },
+    {
+           "question":"What is the only bird that can swim but cannot fly?",
+           "options":["Penguin","Ostrich","Emu"],
+         "answer":0
+    },
+           {
+            "question":"Which animal has the largest eyes in the world?",
+            "options":["Ostrich","Colossal Squid","African Elephant"],
+            "answer":1
+           },
+           {
+          "question":"What animal has the longest tongue in the world?",
+            "options":["Giraffe","Chameleon","Anteater"],
+            "answer":2
+           },
+           {
+          "question":"What animal is known for having the largest brain of any land animal?",
+           "options":["Human","Elephant","Chimpanzee"],
+           "Answer": 1
+           }
+           
+        
+    ],
+
+
+    "hard_level":[
+        {
+			"question": "What is the largest mammal in the world? ",
+			"options": ["Elephant", "Blue Whale", "Giraffe", "Gorilla"],
+			"answer": 1
+		},
+		{
+			"question": "What is the largest mammal in the world? ",
+			"options": ["Elephant", "Blue Whale", "Giraffe", "Gorilla"],
+			"answer": 1
+		}
+    ]
+}
+    
+
+    
