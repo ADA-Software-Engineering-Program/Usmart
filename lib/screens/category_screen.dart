@@ -1,21 +1,13 @@
 import 'package:flutter/material.dart';
 
 class MyCategoryScreen extends StatefulWidget {
-  MyCategoryScreen({Key? key, required String title}) : super(key: key);
+  const MyCategoryScreen({Key? key, required String title}) : super(key: key);
 
   @override
   State<MyCategoryScreen> createState() => _MyCategoryScreenState();
 }
 
 class _MyCategoryScreenState extends State<MyCategoryScreen> {
-  final List<Map<String, dynamic>> _categories = [
-    {'name': 'Animals', 'icon': Icons.pets},
-    {'name': 'Science', 'icon': Icons.science},
-    {'name': 'History', 'icon': Icons.history},
-    {'name': 'Literature', 'icon': Icons.menu_book},
-    {'name': 'Music', 'icon': Icons.music_note},
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
