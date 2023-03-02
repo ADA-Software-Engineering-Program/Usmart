@@ -1,27 +1,26 @@
 import 'package:flutter/material.dart';
-import 'screens/category_screen.dart';
+import 'package:usmart/screens/home_screen.dart';
+
 
 void main() {
-  runApp(MaterialApp(
-    home: MyCategoryScreen(title: 'Category Screen'),
-     debugShowCheckedModeBanner: false,
-  ));
+  runApp(
+    const MyApp(),
+  );
 }
 
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
-class CategoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      // color: Colors.white, // Remove this line
-      child: Center(
-        child: Text(
-          'This is the category screen',
-          style: TextStyle(fontSize: 24),
-        ),
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomeScreen(title: 'Usmart',
       ),
     );
   }
 }
+
+
 
 
