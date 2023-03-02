@@ -34,51 +34,45 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void nextQuestion() {
     if (index == _questions.length - 1) {
-      showDialog(
-        context: context, 
-        barrierDismissible: false,
-        builder: (ctx) => ResultsBox(
-        result: score,
-        questionLength: _questions.length,
-        ),
-        );
+      //showDialog(
+      //  context: context,
+      //  barrierDismissible: false,
+       // builder: (ctx) => ResultsBox(
+       //   result: score,
+        //  questionLength: _questions.length,
+       // ),
+     // );
     } else {
-      if(isPressed) {
-         setState(() {
-        index++;
-        isPressed = false;
-        isAlreadySelected = false;
-      }); 
-      }else{
-        ScaffoldMessenger.of(context).showSnackBar(
-         const SnackBar(
-          content: Text('Please, select an Option'), 
-          behavior: SnackBarBehavior.floating, margin: EdgeInsets.symmetric(
-            vertical: 20.0),
-          )
-        );
-
+      if (isPressed) {
+        setState(() {
+          index++;
+          isPressed = false;
+          isAlreadySelected = false;
+        });
+      } else {
+        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+          content: Text('Please, select an Option'),
+          behavior: SnackBarBehavior.floating,
+          margin: EdgeInsets.symmetric(vertical: 20.0),
+        ));
       }
-     
     }
   }
 
-void checkAnswerAndUpdate(bool value) {
-if(isAlreadySelected) {
-  return;
-}else{
-if(value == true) {
-    score++;
-    setState(() {
-    isPressed = true;
-    isAlreadySelected = true;
-  });
-}
-  
+  void checkAnswerAndUpdate(bool value) {
+    if (isAlreadySelected) {
+      return;
+    } else {
+      if (value == true) {
+        score++;
+              setState(() {
+          isPressed = true;
+          isAlreadySelected = true;
+        });
+        Navigator.pop(context);
+      }
+    }
   }
-  
-}
-
 
   @override
   Widget build(BuildContext context) {
@@ -87,12 +81,14 @@ if(value == true) {
         title: const Text('U-Smart'),
         backgroundColor: Colors.purpleAccent,
         actions: [
-          Padding(padding: const EdgeInsets.all(18.0),
-          child: Text('Score: $score',
-          style: const TextStyle(
-            fontSize: 18.0,
-          ),
-          ), 
+          Padding(
+            padding: const EdgeInsets.all(18.0),
+            child: Text(
+              'Score: $score',
+              style: const TextStyle(
+                fontSize: 18.0,
+              ),
+            ),
           ),
         ],
       ),
@@ -123,13 +119,14 @@ if(value == true) {
             for (int i = 0; i < _questions[index].options.length; i++)
               GestureDetector(
                 onTap: () => checkAnswerAndUpdate(
-                  _questions[index].options.values.toList()[i]),
+                    _questions[index].options.values.toList()[i]),
                 child: OptionCard(
                   option: _questions[index].options.keys.toList()[i],
-                color:isPressed ? _questions[index].options.values.toList()[i] == true 
-                ? correct
-                : incorrect
-                : neutral,
+                  color: isPressed
+                      ? _questions[index].options.values.toList()[i] == true
+                          ? correct
+                          : incorrect
+                      : neutral,
                 ),
               ),
           ],
@@ -145,5 +142,3 @@ if(value == true) {
     );
   }
 }
-
-

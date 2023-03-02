@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:usmart/models/constants.dart';
 
 class ResultsBox extends StatelessWidget {
-  const ResultsBox({super.key, required this.result, required this.questionLength});
+  const ResultsBox({super.key, required this.result, required this.questionLength,required this.onPressed});
 
   final int result;
   final int questionLength;
+  final VoidCallback onPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -52,6 +54,20 @@ class ResultsBox extends StatelessWidget {
                 color: neutral,
               ),
               ),
+             const SizedBox(height: 25.0),
+             GestureDetector(
+             // onTap: ()onPressed
+
+              ),
+             // child: const Text(
+              //  'start Over',
+                // style:TextStyle(color:Colors.purple,
+                  //fontSize: 20.0, 
+                  //letterSpacing: 1.0,
+                  // ))
+
+                // ),
+              
           ],
         ),
       ),
